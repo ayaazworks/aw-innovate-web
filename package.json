@@ -2,12 +2,12 @@
   "name": "dev-web",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://ayaazworks.github.io/aw-innovate-web",
   "type": "module",
+  "homepage": "https://ayaazworks.github.io/aw-innovate-web",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

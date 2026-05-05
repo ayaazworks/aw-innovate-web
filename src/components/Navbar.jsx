@@ -51,7 +51,7 @@ const Navbar = () => {
         
         {/* Accented Terms link[cite: 5] */}
         <Link to="/terms" style={styles.link} className="nav-link">
-          Terms
+          Terms and Conditions
         </Link>
         
         <Link to="/contact" style={styles.link} className="nav-link">Contact</Link>
